@@ -61,24 +61,15 @@ EfficientNet-B3 achieved the highest performance among all models.
 <img width="433" height="137" alt="best model results" src="https://github.com/user-attachments/assets/cd5adf6f-8b15-4a5b-82d1-ed7720d66347" />
 
 Key Insights
-
-Transfer learning significantly improves performance
-
-EfficientNet outperforms ResNet-50 and CNN baseline
-
-Class overlap exists between Eosinophils and Neutrophils
-
-Data augmentation improves generalisation
+- Transfer learning significantly improves performance
+- EfficientNet outperforms ResNet-50 and CNN baseline
+- Class overlap exists between Eosinophils and Neutrophils
+- Data augmentation improves generalisation
 
 Technologies Used
-Python
-
-TensorFlow / Keras
-
-Scikit-learn
-
-NumPy
-
-Pandas
-
-Matplotlib
+- Python
+- TensorFlow / Keras
+- Scikit-learn
+- NumPy
+- Pandas
+- Matplotlib
