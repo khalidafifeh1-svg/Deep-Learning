@@ -54,9 +54,10 @@ Model	Accuracy
 BloodCellCNN	74.16%
 ResNet-50	54.16%
 EfficientNet-B3	98.94%
+
 Best Model Performance
+
 EfficientNet-B3 achieved the highest performance among all models.
-Final Results
 
 <img width="433" height="137" alt="best model results" src="https://github.com/user-attachments/assets/cd5adf6f-8b15-4a5b-82d1-ed7720d66347" />
 
