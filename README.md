@@ -51,8 +51,11 @@ Model evaluation using multiple metrics
 
 Results
 Model	Accuracy
+
 BloodCellCNN	74.16%
+
 ResNet-50	54.16%
+
 EfficientNet-B3	98.94%
 
 Best Model Performance
