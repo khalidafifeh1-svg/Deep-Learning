@@ -69,6 +69,7 @@ Transfer learning significantly improves performance
 EfficientNet outperforms ResNet-50 and CNN baseline
 Class overlap exists between Eosinophils and Neutrophils
 Data augmentation improves generalisation
+
 Technologies Used
 Python
 TensorFlow / Keras
