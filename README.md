@@ -1,5 +1,6 @@
 # Deep Learning – White Blood Cell Classification
-📌 Overview
+
+Overview
 
 This project explores the classification of white blood cells from microscopic images using deep learning techniques. The aim is to automate haematological diagnosis by comparing multiple convolutional neural network architectures.
 
@@ -8,7 +9,8 @@ Three models were implemented and evaluated:
 Custom CNN (BloodCellCNN)
 ResNet-50 (Transfer Learning)
 EfficientNet-B3 (Transfer Learning)
-🎯 Objective
+
+Objective
 
 To accurately classify white blood cell types:
 
@@ -24,7 +26,7 @@ Classes: 4 white blood cell types
 
 <img width="426" height="70" alt="dataset sample" src="https://github.com/user-attachments/assets/c1c2fae0-d309-4bcc-b138-63a37cff7b12" />
 
- Models Used
+Models Used
 1. Custom CNN (BloodCellCNN)
 3 convolutional blocks
 Fully connected layers
@@ -36,6 +38,7 @@ Fine-tuned classifier
 3. EfficientNet-B3
 Advanced transfer learning model
 Optimised architecture for accuracy and efficiency
+
 Techniques Used
 Data augmentation
 Hyperparameter Tuning Results
@@ -45,6 +48,7 @@ Hyperparameter Tuning Results
 Transfer learning
 Gradient descent optimisation
 Model evaluation using multiple metrics
+
 Results
 Model	Accuracy
 BloodCellCNN	74.16%
