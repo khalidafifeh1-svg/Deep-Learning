@@ -15,13 +15,21 @@ Objective
 To accurately classify white blood cell types:
 
 Neutrophils
+
 Lymphocytes
+
 Monocytes
+
 Eosinophils
+
 Dataset
-Source: Kaggle (microscopic white blood cell images)
-Total images: 12,444
+
+Source: Kaggle Blood Cell Images
+
+Total images: 12,500
+
 Image size: 320 × 240
+
 Classes: 4 white blood cell types
 
 <img width="426" height="70" alt="dataset sample" src="https://github.com/user-attachments/assets/c1c2fae0-d309-4bcc-b138-63a37cff7b12" />
