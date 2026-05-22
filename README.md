@@ -44,7 +44,7 @@ Optimised architecture for accuracy and efficiency
 
 <img width="445" height="115" alt="hyperparameter tuning results" src="https://github.com/user-attachments/assets/be1b9922-4e06-4b00-8d6d-dda0f99b7a43" />
 
--Transfer learning
+- Transfer learning
 - Gradient descent optimisation
 - Model evaluation using multiple metrics
 
