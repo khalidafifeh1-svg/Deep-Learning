@@ -72,8 +72,13 @@ Data augmentation improves generalisation
 
 Technologies Used
 Python
+
 TensorFlow / Keras
+
 Scikit-learn
+
 NumPy
+
 Pandas
+
 Matplotlib
