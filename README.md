@@ -22,10 +22,10 @@ Dataset
 - Total images: 12,500
 - Image size: 320 × 240
 - Classes: 4 white blood cell types
-- 
+
 <img width="426" height="70" alt="dataset sample" src="https://github.com/user-attachments/assets/c1c2fae0-d309-4bcc-b138-63a37cff7b12" />
 
-- Models Used
+Models Used
 1. Custom CNN (BloodCellCNN)
 3 convolutional blocks
 Fully connected layers
@@ -45,17 +45,14 @@ Techniques Used
 <img width="445" height="115" alt="hyperparameter tuning results" src="https://github.com/user-attachments/assets/be1b9922-4e06-4b00-8d6d-dda0f99b7a43" />
 
 Transfer learning
-Gradient descent optimisation
-Model evaluation using multiple metrics
+- Gradient descent optimisation
+- Model evaluation using multiple metrics
 
 Results
 Model	Accuracy
-
-BloodCellCNN	74.16%
-
-ResNet-50	54.16%
-
-EfficientNet-B3	98.94%
+- BloodCellCNN	74.16%
+- ResNet-50	54.16%
+- EfficientNet-B3	98.94%
 
 Best Model Performance
 
