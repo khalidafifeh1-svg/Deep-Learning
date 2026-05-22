@@ -7,7 +7,9 @@ This project explores the classification of white blood cells from microscopic i
 Three models were implemented and evaluated:
 
 Custom CNN (BloodCellCNN)
+
 ResNet-50 (Transfer Learning)
+
 EfficientNet-B3 (Transfer Learning)
 
 Objective
