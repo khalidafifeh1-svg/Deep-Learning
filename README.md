@@ -16,31 +16,30 @@ Neutrophils
 Lymphocytes
 Monocytes
 Eosinophils
-
-using deep learning models and evaluate their performance using standard metrics.
-
 📊 Dataset
 Source: Kaggle (microscopic white blood cell images)
 Total images: 12,444
 Image size: 320 × 240
 Classes: 4 white blood cell types
-<img width="426" height="70" alt="dataset image" src="https://github.com/user-attachments/assets/c1c2fae0-d309-4bcc-b138-63a37cff7b12" />
+Dataset Sample
+<img width="426" height="70" alt="dataset sample" src="https://github.com/user-attachments/assets/c1c2fae0-d309-4bcc-b138-63a37cff7b12" />
 🧠 Models Used
 1. Custom CNN (BloodCellCNN)
 3 convolutional blocks
 Fully connected layers
-Used as a baseline model
+Baseline model
 2. ResNet-50
 Pre-trained on ImageNet
 Transfer learning applied
-Fine-tuned classifier layers
+Fine-tuned classifier
 3. EfficientNet-B3
 Advanced transfer learning model
 Optimised architecture for accuracy and efficiency
 ⚙️ Techniques Used
 Data augmentation
+Hyperparameter Tuning Results
+<img width="445" height="115" alt="hyperparameter tuning results" src="https://github.com/user-attachments/assets/be1b9922-4e06-4b00-8d6d-dda0f99b7a43" />
 Transfer learning
-Hyperparameter tuning <img width="445" height="115" alt="hyperparameter tuning" src="https://github.com/user-attachments/assets/be1b9922-4e06-4b00-8d6d-dda0f99b7a43" />
 Gradient descent optimisation
 Model evaluation using multiple metrics
 📈 Results
@@ -48,16 +47,17 @@ Model	Accuracy
 BloodCellCNN	74.16%
 ResNet-50	54.16%
 EfficientNet-B3	98.94%
-🏆 Best Model
+🏆 Best Model Performance
 
-EfficientNet-B3 achieved the best performance among all tested models.
+EfficientNet-B3 achieved the highest performance among all models.
 
+Final Results
 <img width="433" height="137" alt="best model results" src="https://github.com/user-attachments/assets/cd5adf6f-8b15-4a5b-82d1-ed7720d66347" />
 💡 Key Insights
 Transfer learning significantly improves performance
-EfficientNet outperforms both ResNet-50 and custom CNN
+EfficientNet outperforms ResNet-50 and CNN baseline
 Class overlap exists between Eosinophils and Neutrophils
-Data augmentation improves generalisation and model stability
+Data augmentation improves generalisation
 🛠️ Technologies Used
 Python
 TensorFlow / Keras
