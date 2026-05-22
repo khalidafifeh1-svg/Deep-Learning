@@ -13,28 +13,19 @@ Three models were implemented and evaluated:
 Objective
 
 To accurately classify white blood cell types:
-
-Neutrophils
-
-Lymphocytes
-
-Monocytes
-
-Eosinophils
-
+- Neutrophils
+- Lymphocytes
+- Monocytes
+- Eosinophils
 Dataset
-
-Source: Kaggle Blood Cell Images
-
-Total images: 12,500
-
-Image size: 320 × 240
-
-Classes: 4 white blood cell types
-
+- Source: Kaggle Blood Cell Images
+- Total images: 12,500
+- Image size: 320 × 240
+- Classes: 4 white blood cell types
+- 
 <img width="426" height="70" alt="dataset sample" src="https://github.com/user-attachments/assets/c1c2fae0-d309-4bcc-b138-63a37cff7b12" />
 
-Models Used
+- Models Used
 1. Custom CNN (BloodCellCNN)
 3 convolutional blocks
 Fully connected layers
@@ -48,8 +39,8 @@ Advanced transfer learning model
 Optimised architecture for accuracy and efficiency
 
 Techniques Used
-Data augmentation
-Hyperparameter Tuning Results
+- Data augmentation
+- Hyperparameter Tuning Results
 
 <img width="445" height="115" alt="hyperparameter tuning results" src="https://github.com/user-attachments/assets/be1b9922-4e06-4b00-8d6d-dda0f99b7a43" />
 
