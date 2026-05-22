@@ -10,14 +10,14 @@ Three models were implemented and evaluated:
 - ResNet-50 (Transfer Learning)
 - EfficientNet-B3 (Transfer Learning)
 
-Objective
+# Objective
 
 To accurately classify white blood cell types:
 - Neutrophils
 - Lymphocytes
 - Monocytes
 - Eosinophils
-Dataset
+# Dataset
 - Source: Kaggle Blood Cell Images
 - Total images: 12,500
 - Image size: 320 × 240
@@ -25,7 +25,7 @@ Dataset
 
 <img width="426" height="70" alt="dataset sample" src="https://github.com/user-attachments/assets/c1c2fae0-d309-4bcc-b138-63a37cff7b12" />
 
-Models Used
+# Models Used
 1. Custom CNN (BloodCellCNN)
 3 convolutional blocks
 Fully connected layers
@@ -38,7 +38,7 @@ Fine-tuned classifier
 Advanced transfer learning model
 Optimised architecture for accuracy and efficiency
 
-Techniques Used
+# Techniques Used
 - Data augmentation
 - Hyperparameter Tuning Results
 
@@ -48,25 +48,25 @@ Transfer learning
 - Gradient descent optimisation
 - Model evaluation using multiple metrics
 
-Results
+# Results
 Model	Accuracy
 - BloodCellCNN	74.16%
 - ResNet-50	54.16%
 - EfficientNet-B3	98.94%
 
-Best Model Performance
+# Best Model Performance
 
 EfficientNet-B3 achieved the highest performance among all models.
 
 <img width="433" height="137" alt="best model results" src="https://github.com/user-attachments/assets/cd5adf6f-8b15-4a5b-82d1-ed7720d66347" />
 
-Key Insights
+# Key Insights
 - Transfer learning significantly improves performance
 - EfficientNet outperforms ResNet-50 and CNN baseline
 - Class overlap exists between Eosinophils and Neutrophils
 - Data augmentation improves generalisation
 
-Technologies Used
+# Technologies Used
 - Python
 - TensorFlow / Keras
 - Scikit-learn
